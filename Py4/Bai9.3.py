@@ -1,0 +1,6 @@
+input_text=input('Nhap mot cau de xu ly: ')
+lst_text=input_text.split()
+print('List cac tu: ', lst_text)
+print('So luong cac tu: ',len(lst_text))
+print('Tu dau tien trong cau: ',lst_text[0])
+print('Tu cuoi cung trong cau: ',lst_text[-1])
